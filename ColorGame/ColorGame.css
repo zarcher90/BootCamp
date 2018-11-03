@@ -1,0 +1,67 @@
+body{
+    background-color: #232323;
+    margin: 0;
+    font-family: "Montserrat", "Avenir";
+}
+.square{
+    width: 30%;
+    background-color: #232323;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%;
+    transition: background 1.0s;
+    -webkit-transition: background 1.0s;
+    -moz-transition: background 1.0s;
+}
+#container{
+    margin: 20px auto;
+    max-width: 60%;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 40%;
+    padding: 20px 0;
+
+}
+#menuBar{
+    background-color: white;
+    margin: 0;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+#colorDisplay{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.button{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: #578cee;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.3s;
+    outline: none;
+}
+.selected{
+    color: white;
+    background: #578cee;
+}
+button:hover{
+    color: white;
+    background: #578cee;
+}
+.controlPannel{
+    margin: 0 auto;
+    max-width: 50%;
+}
+.message{
+    display: inline-block;
+    width: 20%;
+}

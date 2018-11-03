@@ -1,0 +1,23 @@
+In this exercise we need 4 ways to do a DOM select of the first paragraph tag. 
+
+I did this in the console but here are my selectors. ...
+
+
+document.querySelector('p');
+<p id=​"first" class=​"special">​Hello​</p>​
+
+document.getElementById("first");
+<p id=​"first" class=​"special">​Hello​</p>​
+
+document.querySelector('#first');
+<p id=​"first" class=​"special">​Hello​</p>​
+
+document.querySelector('.special');
+<p id="first" class="special">Hello</p>
+
+video also showed.....
+document.getElementsByClassName("special")[0]
+<p id=​"first" class=​"special">​Hello​</p>​
+
+document.querySelector("h1 + p")
+<p id=​"first" class=​"special">​Hello​</p>​
